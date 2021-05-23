@@ -1,45 +1,85 @@
 <html>
 <head>
+	<meta charset="UTF-8">
+  	<meta name="description" content="My portfolio">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="Shubham">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/table.css">
 <title>
 Homepage
 </title>
 <style>
 .social{ 
-	position: relative;
-width: 100%;
-height: 51%px;
-margin-top: 50px;}
-.hey{ position: relative;
+	float: left;
+	width: 10%;
+}
+.hey{ 
 	bottom: 10px;
-	margin-left: 40%;
+}
+.sec{
+	float:left;
+	width: 70%;
+	text-align: center;
+}
+.al{
+	float: left;
+	margin-left: 10%;
+	margin-top: 10%;
 }
 </style>
 </head>
-<body style="background-image: url('http://i.stack.imgur.com/kx8MT.gif');
-    background-size: cover">
-    	<ul style="font-weight: bold; border-radius:20px; background-color: FF7C00; line-height: 30px; margin-bottom: 10px">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="Ed.html">Educational Background</a></li>
-	<li><a href="proexp.html">Project Experience</a></li>
-	<li><a href="learning.html">Learning Interst</a></li>
-	<li><a href="hobbies.html">Hobbies</a></li>
-	<li><a href="blogs.html">Blogs</a></li>
-	<li><a href="memo.html">Memories</a></li>
-	<li><a href="weblink.html">Useful Weblinks</a></li>
-	<li><a href="coninf.html">Contact Information</a></li>
-	</ul>
-	 <div class="Me">
-	 	<h1 style="color:red; font-family: Harlow Solid Italic; margin-left: 35%; font-size: 40" >Welcome To My Profile</h1>
-		<h2 style="margin-left: 39%; font-family: Snap ITC;  position: relative;bottom: 10px;color:grey; ">Shubham Bansode</h2>
-	 <div class="hey"><img src="shubham.jpg" alt="shubham" width="200px" height="220px" border="2px">
-	 	</div>   
-	    </div>
+<body style="background-color: blueviolet;">
+    <table class="tbcont">
+		<tr>
+			<th><a href="index.html">Home</a></th>
+			<th><a href="Ed.html">Educational Background</a></th>
+			<th><a href="proexp.html">Project Experience</a></th>
+			<th><a href="learning.html">Learning Interst</a></th>
+			<th><a href="hobbies.html">Hobbies</a></th>
+			<th><a href="blogs.html">Blogs</a></th>
+			<th><a href="memo.html">Memories</a></th>
+			<th><a href="weblink.html">Useful Weblinks</a></th>
+			<th><a href="coninf.html">Contact Information</a></th>
+		</tr>
+	</table>
+	<div class="sec">
+	 	<h1 style="color:rgb(3, 240, 55); font-family: Harlow Solid Italic; font-size: 40;" >Welcome To My Profile</h1>
+		<h2 style="font-family: Snap ITC;  position: relative; bottom: 10px;color:rgb(239, 243, 19); ">Shubham Bansode</h2>
+	 	<div class="hey">
+			<img style="border-radius: 10%; border-style: solid; border-color: rgb(0, 255, 149);" src="Myimg.jpg" alt="shubham" width="200px" height="400px">
+		</div>
+		<h2 style="font-family: Imprint MT Shadow;color: rgb(255, 136, 0); margin-top: 20%;">My Educational Background</h2>
+		<button style="border-radius: 15px; padding: 15px 15px; background-color: rgb(0, 189, 247); color: red; font-size:22; margin-top: 5px">
+			<a href="Ed.html">Educational Background</a>
+		</button>
+	</div>
 	<div class="social">
-	<h2 style="color:blue; font-family: Lucida Calligraphy; margin-left: 30%">The following are links to my social sites.</h2>
-	<p style="font-size: 23; color: green; margin-left: 31%" >Just click anywhere on the images to proceed.</p>
-	<a href="https://www.facebook.com/shubham.bansode.336" target="_blank"><img src="fb.png" alt="Facebook" width="200px" height="200px" align="left" ></a>
-	<a href="https://www.instagram.com/shubham_6210/" target="_blank"><img src="insta.jpg" alt="Instagram" width="200px" height="200px" align="right"></a>
-	<h2 style="font-family: Imprint MT Shadow;color: white; margin-left: 36%">My Educational Background</h2></div>
-	<button style="border-radius: 15px; padding: 20px 20px; background-color: green; color: red; font-size:22; margin-left:24%; margin-top: 10px"><a href="Ed.html">Educational Background</a></button>
+		<h3 style="color:rgb(59, 248, 11); font-family: Lucida Calligraphy">The following are links to my social sites.</h3>
+			<a href="https://www.facebook.com/shubham.bansode.336" target="_blank">
+				<img style="background-color: aqua; border-radius: 80%;"
+				src="fb.png" alt="Facebook" width="150px" height="150px">
+			</a>
+			<p style="color: rgb(23, 233, 233);">FACEBOOK</p>
+			<br>
+			<a href="https://www.instagram.com/shubham_6210/" target="_blank">
+				<img style="margin-top: 3%; border-radius: 50%;"
+				src="insta.jpg" alt="Instagram" width="150px" height="150px">
+			</a>
+			<p style="color: rgb(10, 233, 233);">INSTAGRAM</p>
+			<br>
+			<a href="https://github.com/shubham4019" target="_blank">
+				<img style="background-color: rgb(20, 235, 235); margin-top: 3%; border-radius: 50%;"
+				src="http://pngimg.com/uploads/github/github_PNG40.png" alt="GitHub" width="150px" height="150px">
+			</a>
+			<p style="color: rgb(20, 235, 235);">GITHUB</p>
+	</div>
+	<div class="al">
+		<a href="https://in.linkedin.com/in/shubham-bansode-2415b5171?trk=people-guest_people_search-card" target="_blank">
+			<img style="background-color: rgb(20, 235, 235);border-radius: 50%;"
+			src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG38.png" alt="GitHub" width="150px" height="150px">
+		</a>
+		<p style="color: rgb(20, 235, 235);">LINKEDIN</p>
+	</div>
 </body>
 </html>
